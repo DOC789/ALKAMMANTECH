@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Screw Compressor - Reftech</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+  
+  /* Navbar */
+  nav {
+    background: #0a58ca;
+    color: white;
+    padding: 15px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo { font-size: 22px; font-weight: bold; }
+  nav ul { list-style: none; display: flex; gap: 25px; }
+  nav ul li a { color: white; text-decoration: none; font-weight: 500; }
+  nav ul li a:hover { text-decoration: underline; }
+
+  /* Hero */
+  .hero {
+    background: #0a58ca;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero h1 { font-size: 28px; margin-bottom: 10px; }
+
+  /* Service Grid */
+  .services {
+    padding: 60px 5%;
+    background: #f5f7fa;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card h3 {
+    margin: 15px 0 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .card p {
+    font-size: 14px;
+    color: #555;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Reftech</div>
+  <ul>
+    <li><a href="#layanan">Layanan</a></li>
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#kontak">Kontak</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h1>Layanan Servis Lengkap untuk Semua Jenis Kompresor & Air Dryer</h1>
+  <p>Teknisi bersertifikat, sparepart asli, garansi kerja</p>
+</section>
+
+<section class="services" id="layanan">
+  <div class="grid">
+    
+    <div class="card">
+      <img src="gambar1.jpg" alt="Service Berkala">
+      <h3>🔧 Service Berkala (PM1-PM4)</h3>
+      <p>Pemeriksaan dan perawatan rutin berdasarkan jam kerja kompresor 4.000–24.000 jam untuk mencegah kerusakan dan menjaga efisiensi.</p>
+    </div>
+
+    <div class="card">
+      <img src="gambar2.jpg" alt="Service Overhaul">
+      <h3>🚛 Service Overhaul Kompresor</h3>
+      <p>Pembongkaran dan perbaikan total untuk unit yang mengalami penurunan performa atau kerusakan berat, agar performa kembali seperti baru.</p>
+    </div>
+
+    <div class="card">
+      <img src="gambar3.jpg" alt="Sparepart">
+      <h3>⚙️ Penggantian Sparepart</h3>
+      <p>Penggantian filter, oli, seal, valve, dan komponen penting lainnya menggunakan part asli atau OEM sesuai standar pabrikan.</p>
+    </div>
+
+    <div class="card">
+      <img src="gambar4.jpg" alt="Audit">
+      <h3>📊 Measurement Air Audit</h3>
+      <p>Diagnosa menyeluruh untuk memastikan tekanan udara stabil, suhu kerja ideal, dan kelembaban udara tetap rendah.</p>
+    </div>
+
+    <div class="card">
+      <img src="gambar5.jpg" alt="Laporan">
+      <h3>📄 Laporan Service Lengkap</h3>
+      <p>Setiap pekerjaan disertai dokumentasi detail, riwayat servis, dan saran teknis untuk perencanaan perawatan berikutnya.</p>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
